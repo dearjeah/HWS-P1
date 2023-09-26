@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="z3F-dm-A9N">
             <objects>
-                <tableViewController id="aki-z7-xrO" customClass="ViewController" customModule="HWS_P1" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ViewController" id="aki-z7-xrO" customClass="ViewController" customModule="HWS_P1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Diw-p3-Sz4">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,7 +48,7 @@
         <!--Navigation Controller-->
         <scene sceneID="nJj-iE-FUs">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Zca-Fk-gXS" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="StormNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="Zca-Fk-gXS" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wff-DZ-LZ8">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
